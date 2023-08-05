@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+    color: white;
+    margin-left: 20px;
+    font-size: large;
+}
+
+.nav-links {
+  display: flex;
+  margin-right: 150px;
+  gap: 50px;
+}
+
+.nav-links > li {
+  list-style-type: none;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.home-container{
+  height: 87vh;
+  background-image: url('https://images.unsplash.com/photo-1529720317453-c8da503f2051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20%;
+}
+
+.shop-btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.home-btn{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.product-image{
+  height: 170px;
+}
+
+.card-container{
+  margin: 10px;
+  width: 25vw;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 16rem;
+}
+
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center center;
+  height: auto;
+  width: 150px;
+}
+
+.product-info{
+  margin-top: 15px;
+  font-size: .92em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.info-container{
+  margin-top: 15px;
+}
+
+.product-price{
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.rating-container{
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  margin-top: 10px;
+}
+
+.rating-container > span{
+  font-weight: 600;
+}
